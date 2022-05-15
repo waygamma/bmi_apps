@@ -12,7 +12,7 @@ class ProfilePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: mainColor,
         title: Text(
-          nameApps,
+          'BMI Apps Developer',
           style: GoogleFonts.raleway(
             color: Colors.white,
             fontSize: 20,
