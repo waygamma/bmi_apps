@@ -2,9 +2,9 @@
     package="com.g2e.bmi_apps">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="bmi_app"
+        android:label="BMI Apps"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"
