@@ -47,7 +47,7 @@ dev_dependencies:
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icon.png"
+  image_path: "assets/Icon/icon.png"
 
   flutter_test:
     sdk: flutter
@@ -78,7 +78,7 @@ flutter:
     - assets/obese2.png
     - assets/overweight.png
     - assets/underweight.png
-    - assets/icon.png
+    - assets/Icon/icon.png
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
