@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
             ),
             Text(
               "Calculator BMI",
-              style: GoogleFonts.raleway(
+              style: GoogleFonts.saira(
                 color: mainColor,
                 fontSize: 18,
               ),
@@ -265,7 +265,13 @@ class _HomePageState extends State<HomePage> {
                           SizedBox(
                             width: 10,
                           ),
-                          Text("Calculate"),
+                          Text(
+                            "Calculate",
+                            style: GoogleFonts.saira(
+                              color: Colors.white,
+                              fontSize: 18,
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -276,7 +282,13 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 20,
             ),
-            Text("Click calculate untuk melihat hasil"),
+            Text(
+              "Click calculate untuk melihat hasil",
+              style: GoogleFonts.saira(
+                color: mainColor,
+                fontSize: 18,
+              ),
+            ),
           ]),
         ),
       ),
